@@ -37,28 +37,17 @@ export default function Contact() {
               <h1 className="text-center text-white contact-title">
                 <span className=" yellow">CONTACT</span> US
               </h1>
-              <div className="row testmo my-3 text-white">
-                <div className="col-md-6">
-                  <div className="  ">
-                    <p className=" text-uppercase cont-info">
-                      <em>email address</em>
-                    </p>
-                    <Link
-                      to={"https://www.Nour_chaito@hotmail.com"}
-                      target="_blank"
-                    >
-                      <p className=" text-white">Nour_chaito@hotmail.com</p>
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-6 ">
-                  <div className="mx-5">
-                    <p className=" text-uppercase cont-info ">
-                      <em>phone number</em>
-                    </p>
-                    <p className="">+961 71 407 149</p>
-                  </div>
-                </div>
+              <div className="row testmo my-3 text-white ">
+              <div className="contact-dis">
+              <div className="mx-5">
+         <p className=" text-uppercase fs-5  "><em>email address</em></p>
+         <Link to={"https://www.Nour_chaito@hotmail.com"} className='text-white fw-bolder'><p>Nour_chaito@hotmail.com</p></Link>
+      </div>
+      <div className="mx-5">
+         <p className=" text-uppercase fs-5 fw-bolder"><em>phone number</em></p>
+         <p className="">+961 71 407 149</p>
+      </div>
+              </div>
               </div>
               <h1 className="text-center text-white contact-title">
                 <span className=" yellow">STAY</span> CONNECTED
@@ -133,7 +122,7 @@ export default function Contact() {
                 </h1>
                 <div className=" d-flex justify-content-center">
                   <form
-                    action="https://formspree.io/f/mzblqeoq"
+                    action="https://formspree.io/f/mleykonk"
                     method="post"
                     className="w-75 font-not"
                   >

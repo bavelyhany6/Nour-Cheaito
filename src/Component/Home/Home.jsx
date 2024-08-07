@@ -159,7 +159,7 @@ export default function Home() {
                 </em>
               </p>
               <p className="ms-3 pb-3 fw-bolder ">
-                <em>Ghinwa Bou Orm</em>
+                <em>Zahra Khalifah</em>
               </p>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function Home() {
                 </em>
               </p>
               <p className="ms-3 pb-3 fw-bolder ">
-                <em>Zahra Khalifah</em>
+                <em>Ghinwa Bou Orm</em>
               </p>
             </div>
           </div>

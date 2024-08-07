@@ -12,6 +12,9 @@
     font-style: italic;
     display: block;
 }
+.contact-dis{
+    display: flex !important;
+}
 @media all and (max-width: 992px) {
     .contact-title{
         font-size: 60px;
@@ -28,6 +31,10 @@
     .cont-info{
         font-size: 20px !important;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    }
+    .contact-dis{
+        display: block !important;
+        text-align: center;
     }
 }
 @media all and (max-width: 767px) {

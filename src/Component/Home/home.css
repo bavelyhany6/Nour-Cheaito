@@ -226,6 +226,9 @@ a,Link{
   }
 }
 @media all and (max-width: 600px) {
+  .contact {
+    min-height: 50vh;
+  }
   .cons-text{
     font-size: 55px !important;
   }
